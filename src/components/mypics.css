@@ -1,0 +1,15 @@
+.MyPics {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .bg {
+    position: absolute;
+
+    width: 39.5%;
+    height: 10%;
+     background-size: cover; 
+    background-position: center; 
+    will-change: opacity;
+  }
+  

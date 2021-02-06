@@ -1,0 +1,58 @@
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+
+.card1 {
+  min-width: 10ch;
+  min-height: 10ch;
+  width: 45vw;
+  height: 56vw;
+  max-width: 40ch;
+  max-height: 70ch;
+  margin-bottom: 400px;
+  background-image: url('../images/logo-kouki.png');
+}
+
+@media screen and (max-width: 300px) {
+  .card1 {
+    margin-left: 200px;
+    margin-top: -400px;
+  }
+  .card2{
+    margin-left: 5px;
+    margin-top: 1000px;
+  }
+}
+
+
+.card2 {
+  min-width: 10ch;
+  min-height: 4ch;
+  width:19vw;
+  height:7vw;
+  max-width:65ch;
+  max-height: 30ch;
+  margin-left: 150px;
+  margin-top: 200px;
+  background-image: url('../images/welcome.png');
+  
+}
+
+
+
+/* .containerr {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

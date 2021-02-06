@@ -1,0 +1,244 @@
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+ .masthead {
+  margin-bottom: 2rem;
+  
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+#navy{
+  color: #313638;
+  position: fixed; 
+  z-index: 2;
+  top:0; 
+  margin-right : 20%;
+  background-color: #313638;
+}
+body {
+  min-height: 75rem;
+}
+
+
+
+
+
+
+
+#mySidenav a {
+  padding-left: 20px;
+ 
+  margin-bottom: 50px;
+  position: fixed;
+  right: -100px;
+  transition: 0.3s;
+  
+  padding: 15px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 6px 0px 0px 6px;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+#about {
+  top: 20px;
+ 
+  background-color:#E14631;
+
+}
+
+#blog {
+  top: 80px;
+  background-color:#E14631;
+}
+
+#project {
+  top: 140px;
+  background-color:#E14631;
+}
+
+#contact {
+  top: 200px;
+  background-color: #E14631
+}
+
+.wrap{
+  max-width: 60%;
+  margin : 10px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.bar{
+  color: #313638;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+}
+.bar{
+  display: inline-block;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.bar span{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  background:#313638 ; 
+ 
+  border-radius: 50px;
+}
+
+.bar span:before{
+  position: absolute;
+  content: '';
+  top: 2px;
+  left:3px;
+  width: 80%;
+  height: 55%;
+  background: linear-gradient(to left , red,  black);
+  border-radius: 50px;
+  animation: bar 10s ease ;
+}
+
+@keyframes bar{
+  from{
+    width: 0;
+  }
+}
+#first:before{
+  
+  width:80%;
+
+}
+#second:before{
+  width:80%;
+}
+#third:before{
+  width:50%;
+}
+#forth:before{
+  width:40%;
+}
+abbr{
+  width: 50px;
+  color: white;
+  display: inline-block;
+  height:35px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+  background:linear-gradient(to left , red,  black) ;
+  box-shadow: 0 5px 10px red, 0 5px 10px black;
+  animation: count 10s ease ;
+}
+@keyframes count{
+  from{
+    left:0%;
+  }
+
+}
+#firstH{
+  top: 80px;
+  left:80%;
+
+}
+#secondH{
+  top: 80px;
+  left:80%;
+}
+#thirdH{
+  top: 90px;
+  left:50%;
+}
+#forthH{
+  top: 90px;
+  left:40%;
+}
+
+/*project images styling*/
+#news{
+  min-width:10ch;
+  min-height: 18ch;
+  width:93vw;
+  height: 30vw;
+  max-width:130ch;
+  max-height: 60ch;
+  display: "block";
+  margin-left: "auto";
+  margin-right: "auto";
+  
+}
+#madewithlove1{
+  min-width:10ch;
+  min-height: 18ch;
+  width:93vw;
+  height:30vw;
+  max-width:130ch;
+  max-height: 60ch;
+  display: "block";
+  margin-left: " auto";
+  margin-right: "auto";
+}
+
+#carsooq1{
+  min-width:10ch;
+  min-height: 18ch;
+  width:93vw;
+  height:30vw;
+  max-width:130ch;
+  max-height: 60ch;
+  display: "block";
+  margin-left: "auto";
+  margin-right: "auto";
+}
+
+
+#text1 {
+	display: inline-block;
+	vertical-align: middle;
+	color: orange;
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 5px;
+	background-color: red;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: orange; 
+	}
+}
